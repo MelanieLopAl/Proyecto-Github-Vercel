@@ -1,0 +1,265 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Raleway'; 
+  background-color: #b1e7be;
+  margin: auto;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+li{
+  text-decoration: none;
+  font-size: 1rem;
+  margin-left: 4rem;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.tamaño1{
+  width: 10rem;
+  height: 8rem;
+  padding: 1.6rem;
+  margin: auto;
+}
+
+.tamaño2 img {
+  width: 16rem;
+  height: 14rem;
+  padding: 2rem;
+  margin-left: 2rem;
+}
+
+.flex{
+  display: flex;
+}
+
+.nav{
+  background-color: white;
+  color: black;
+  padding: 1rem 2rem;
+}
+.nav li:hover{
+  background-color: #b0e0e6;
+}
+
+.center h1{
+  margin-left: 30rem;
+  margin-top: 2rem;
+  flex-basis: 10rem;
+  padding: 1.5rem;
+  font-size: 2.1rem;
+}
+
+.center p{
+  margin: 2rem;
+  padding: 4rem;
+  border-radius: 3rem;
+  color: black;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  background-color: #8ac8db;
+}
+
+.center1{
+  flex-basis: 14rem;
+  height: 2rem;
+  margin-left: 3rem;
+  padding: 1rem;
+}
+
+.tamaño article img{
+  width: 16rem;
+  height: 14rem;
+  padding: 2rem;
+  margin-left: 2rem;
+}
+
+
+.text h3{
+  margin-left: 10rem;
+  font-size: 1.4rem;
+}
+
+.text p{
+  margin-left: 6rem;
+  font-size: 1.2rem;
+}
+
+
+.fondo{
+  width: 15rem;
+  height: 4rem;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  margin: auto;
+  padding: 2rem;
+  background-color: white;
+
+}
+
+
+
+.lista section{
+  display: flex;
+  margin-left: 3rem;
+  padding: 1rem;
+}
+
+.lista section h2 {
+  background-color: 	#63b6cf;
+  padding: 1rem;
+  max-height: 5rem;
+  flex-basis: 14rem;
+  border-radius: 3rem;
+}
+
+.lista section h3{
+  padding: 1rem;
+  border-radius: 3rem;
+  background-color: #8ac8db;
+  color: black;
+}
+
+#titulo{
+  background-color: 	#63b6cf;
+  padding: 1rem;
+  margin: 0.5rem;
+  flex-basis: 14rem;
+  border-radius: 3rem;
+}
+
+#encabezado{
+  padding: 4rem;
+  font-size: 2.rem;
+}
+
+#nombre{
+  margin-left: 15rem;
+}
+
+#edu{
+  margin-left: 6rem;
+}
+
+.lista section li{
+  line-height: 2rem;
+  font-weight: 600;
+  border-radius: 3rem;
+  padding: 1rem;
+  background-color: #8ac8db;
+  margin-top: 1rem;
+  color: black;
+}
+
+#hab{
+  margin-left: 8rem;
+}
+
+.center3 h1{
+  margin: 3rem 28rem 3rem 28rem;
+  flex-basis: 19rem;
+  border-radius: 4rem;
+}
+
+.flex3{
+  display: flex;
+}
+
+.flex3 article{ 
+  flex-direction: column;
+  margin-top: 2rem;
+  margin: 2.5rem;
+}
+
+.flex3 h2{
+  margin-left: 5.5rem;
+}
+
+.flex3 p{
+  margin-left: 5.5rem;
+  flex-basis: 15rem;
+  background-color: #8ac8db;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-weight: 600;
+}
+
+.negrito{
+  font-weight: 600;
+  flex-basis: 19rem;
+  height: 2rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: black;
+  margin-left: 10rem;
+}
+
+.form{
+  margin-top: 2rem;
+  margin-left: 20rem;
+  margin-right: 28rem;
+  background-color: #8ac8db;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.flex h3{
+  margin-left: 3rem;
+  margin-top: auto;
+}
+
+.boton{
+  background-color: #63b6cf;
+  padding: 1rem;
+  border-radius: 1rem;
+  align-items: center;
+}
+
+#miboton:active{
+  padding: 1rem;
+  background-color: #c4e4ed;
+  color: gray;
+}
+
+
+.info div {
+  margin-left: 10rem;
+  padding: 2rem;
+}
+
+.img{
+  max-width: 14rem;
+  max-height: 12rem;
+  margin-bottom: 3rem;
+  margin-left: 5rem;
+}
+
+.baja{
+  margin-top: 5rem;
+  font-size: 2rem;
+}
+
+.redes a img{
+  max-width: 3rem;
+  max-height: 3rem;
+  margin-right: 1rem;
+}
+/**/

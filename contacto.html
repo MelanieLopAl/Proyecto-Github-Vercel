@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;700&family=Pacifico&family=Raleway:wght@400;600&family=Roboto:ital,wght@0,100;0,500;1,300;1,400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Contacto</title>
+</head>
+<body>
+  <header>
+    <div class="tamaño1"><a href="index.html"><img  src="imagenes/icon.png" alt=""></a></div>
+    <nav>
+      <ul class="flex nav">
+        <li> <a href="index.html">Inicio</a> </li>
+        <li> <a href="curriculum.html">Curriculum</a> </li>
+        <li> <a href="portafolio.html">Portafolio</a> </li>
+        <li> <a href="contacto.html">Contacto</a> </li>
+      </ul>
+    </nav>
+  </header>
+  <main  class="center3">
+    <h1>Contactame aquí</h1>
+    <legend class="negrito">Datos importantes</legend>
+    <form class="form" action="Contacto">
+      <p>
+        <label for="name">Nombre</label>
+        <input type="text" id="name" required>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" value="your@gmail.com" required>
+      </p>
+      <h3>Motivo de contacto</h3>
+      <select name="select" id="select">
+        <option value="1" selected>Cotizacion</option>
+        <label for="1">Cotizacion</label>
+        <option value="2">Trabajo de diseño</option>
+        <label for="2">Trabajo de diseño</label>
+        <option value="3">Mantenimiento de página</option>
+        <label for="3">Mantenimiento de página</label>
+      </select>
+      <p>
+        <label for="mensaje">mensaje</label>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="5"></textarea>
+      </p>
+      <button id="miboton" class="boton" type="submit">Enviar</button>
+      <button id="miboton1" class="boton" type="reset">Borrar</button>
+    </form>
+  </main>
+
+    <address class="flex info">
+      <div>
+        <h2>Correo de Trabajo</h2>
+        <h3>melanie.lopez.alfaro@gmail.com</h3>
+      </div>
+      <div>
+        <h2>Numero de contacto</h2>
+        <h3>+ 506 88 88 88 88 </h3>
+      </div>
+    </address>
+  <section>
+    <div class="flex">
+      <a href="https://www.google.es/maps">
+        <img class="img" src="imagenes/mapa.png" alt=""></a>
+        <p class="baja">Ubicada a una cuadra de la calle principal en San José. </p>
+    </div>
+  </section>
+  <footer class="footer">
+    &copy; CopyRight<time>Julio, 2022</time>
+    <ul class="redes flex">
+      <li><a href="https://www.facebook.com/melanie.alfaro2/"><img src="imagenes/face.png" alt=""></a></li>
+      <li><a href="https://www.instagram.com/einalem_zay/"><img src="imagenes/insta.png" alt=""></a></li>
+    </ul>
+    <a href="contacto.html">Contactame</a>
+    </div>
+  </footer>
+</body>
+</html>
